@@ -1,7 +1,0 @@
-services:
-  suite-inspector:
-    build: ./suite-inspector
-    network_mode: "host" 
-    environment:
-      - REPO_OWNER=aws
-      - REPO_NAME=aws-emulator-evaluation-suite
