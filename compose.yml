@@ -1,5 +1,5 @@
 include:
-  - emulator.yml
+  - aws-emulator.yml
   - s3-client.yml
   - dynamodb-client.yml
 

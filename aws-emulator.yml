@@ -1,6 +1,6 @@
 services:
   aws-emulator:
-    build: .
+    build: ./aws-emulator
     ports:
       - "127.0.0.1:9297:9297"
     deploy:

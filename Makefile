@@ -1,5 +1,5 @@
 batch:
-	# 1. Build and start the emulator
+	# 1. Build and start the aws-emulator
 	docker compose build
 	docker compose up -d aws-emulator
 	
