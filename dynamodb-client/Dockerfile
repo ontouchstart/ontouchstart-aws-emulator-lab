@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.14-slim
 RUN pip install boto3
 WORKDIR /app
 COPY main.py .
