@@ -1,5 +1,6 @@
 FROM python:3.14-slim
-RUN pip install boto3
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
 WORKDIR /app
+RUN uv pip install boto3 --system
 COPY main.py .
-CMD ["python", "main.py"]
+CMD ["uv", "run", "main.py"]
