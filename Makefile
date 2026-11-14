@@ -11,6 +11,9 @@ batch:
 	
 	# Run the dynamodb-client (The emulator is still running in the background)
 	docker compose run --rm s3-bucket-acl-roundtrip
+
+	# Run the bedrock-client (The emulator is still running in the background)
+	docker compose run --rm bedrock-client
 	
 	# Clean up everything at once
 	docker compose down -v

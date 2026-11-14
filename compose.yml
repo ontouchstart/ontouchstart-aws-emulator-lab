@@ -4,4 +4,5 @@ include:
   - dynamodb-client.yml
   - manifest.yml
   - s3-bucket-acl-roundtrip.yml
+  - bedrock-client.yml
 
